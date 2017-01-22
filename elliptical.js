@@ -154,4 +154,5 @@ addSynth(new phasedOverlay(554.37, undefined, 1.7,  .025,  0.9)); //c#5
 //noise
 addSynth(new overlay(440, 'flock.ugen.whiteNoise', 1, .01))
 
+//now that all of our synths have been declared and loaded,
 enviro.start();
